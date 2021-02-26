@@ -68,9 +68,34 @@ body {
   height: 60px;
 }
 
+.second {
+  max-width: 100%;
+  background-color: red;
+  height: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  padding: 50px;
+}
+
+.text {
+  max-width: 50%
+
+}
+
 h1 {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   font-size: 140px;
   color: #0FFFA6;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: C8C8C8;
 }
