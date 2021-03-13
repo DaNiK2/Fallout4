@@ -19,80 +19,42 @@ body {
   background-color: inherit;
   width: 100%;
   height: 900px;
-  margin-top: -100px;
+  margin-top: -150px;
+  text-decoration: none;
 }
 
-.line {
+.Navigation nav {
   width: 100%;
-  height: 70px;
-  //background-color: red;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 0px;
   position: fixed;
-  background: black;
 }
 
-.line button.btn.btn {
-  background-color: black;
-  border: none;
-  width: 30px;
-  padding: 0px;
-  margin: none;
-}
-
-.line button.btn.btn:hover {
-  text-decoration: none;
-  border: none;
-  background-color: black;
-}
-
-.line button.btn.btn:focus {
-  text-decoration: none;
-  border: none;
-  background-color: black;
-  outline: none;
-}
-
-.line button.btn.btn:active {
-  text-decoration: none;
-  border: none;
-  background-color: black;
-  outline: none;
-}
-
-.line2 {
-  margin-right: 300px;
-  width: 1000px;
+.container3 {
+  width: 90%;
   display: flex;
   justify-content: space-between;
-
+  margin: 0 auto;
 }
 
-.line2 a {
+.nav.nav-pills.nav-fill {
+  background-color: black;
+}
+
+.nav.nav-pills.nav-fill a {
+  color: #c8c8c8;
   font-family: 'Exo 2', sans-serif;
   font-weight: 400;
- color: white;
- font-size: 25px;
- margin: 0 auto;
- text-decoration:  none;
 }
-
-.line2 a:hover {
-  text-decoration: underline;
-}
-
 .title {
   width: 90%;
   height: 400px;
   //background-color: red;
   padding: 100px;
-  margin: 100px;
+  margin: 150px 100px 100px 100px;
   font-family: 'Exo 2', sans-serif;
   font-size: 30px;
   font-weight: 400;
   color: white;
+  text-decoration: none;
 }
 
 .title button {
@@ -110,12 +72,11 @@ body {
   //background-color: red;
   //height: 1000px;
   display: flex;
-  justify-content: space-between;
   margin-top: 150px;
+  justify-content: space-between;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   font-size: 30px;
-  padding: 50px;
 }
 
 .text {
@@ -160,17 +121,16 @@ body {
   background-size: 100%;
   background-color: inherit;
   width: 100%;
-  height: 1000px;
+  height: 700px;
   display: flex;
   justify-content: space-between;
 }
 
 .features {
-  padding: 100px;
   width: 100%;
   height: 500px;
   align-items: center;
-  margin-top: 100px;
+  margin: 100px 200px;
 }
 
 .carousel {
@@ -210,7 +170,7 @@ body {
   width: 100%;
   //background-color: red;
   margin-top: 150px;
-  padding: 50px;
+  //padding: 50px;
 }
 
 .Title {
@@ -262,7 +222,8 @@ body {
 }
 
 .container{
-  margin-left: 200px;
+  padding: 0;
+  margin: 100px 200px;
 }
 
 .fiveth {
@@ -306,6 +267,17 @@ body {
   padding: 0;
 }
 
+.modal-content {
+  background-color: #110f0a;
+}
+
+.modal-body {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #C8C8C8;
+}
+
 .modal-body ul {
   list-style: none;
   margin: 0;
@@ -316,8 +288,24 @@ body {
   margin-bottom: 10px;
   border: 1px solid grey;
   border-radius: 4px;
+  background-color: #c8c8c8;
+  width: 100%;
 }
 
+.modal-body a {
+  text-decoration: none;
+  color: #C8c8c8;
+  font-size: 12px;
+}
+
+.modal-body a:hover {
+  text-decoration: underline;
+}
+.btn-primary {
+    color: #110f0a;
+    background-color: #0fffa6;
+    border-color: #0fffa6;
+}
 
 h1 {
   font-family: 'Exo 2', sans-serif;
