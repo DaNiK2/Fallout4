@@ -86,7 +86,7 @@ body {
   font-weight: 400;
   font-size: 15px;
   color: #C8C8C8;
-  margin-left: 200px;
+  //margin-left: 200px;
   line-height: 1.5;
 
 }
@@ -126,43 +126,21 @@ body {
   justify-content: space-between;
 }
 
-.features {
-  width: 100%;
-  height: 500px;
-  align-items: center;
-  margin: 100px 200px;
-}
-
 .carousel {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
-    font-family: 'Exo 2', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    color: #C8C8C8;
-    line-height: 1.5;
-    text-align: left;
-    height: 300px;
-    margin-top: 50px;
+  width: 100%;
 }
 
-.carousel-item {
+.carousel-inner {
+  //background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Container4 {
   margin-left: 200px;
-  text-align: left;
-  padding-top: 50px;
-}
-
-.carousel-item-first {
-  float: left;
-  margin-right: 40px;
-}
-
-.arousel-item-second {
-
-}
-.carousel button {
-  background: none;
-  border: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .fourth {
@@ -223,7 +201,7 @@ body {
 
 .container{
   padding: 0;
-  margin: 100px 200px;
+  margin: 0px;
 }
 
 .fiveth {
@@ -238,7 +216,7 @@ body {
 }
 
 .container2 {
-  margin-left: 200px;
+  //margin-left: 200px;
   display: flex;
   justify-content: space-between;
   width: 80%;
