@@ -7,8 +7,8 @@ body {
 }
 
 .main {
-  min-width: 1000px;
-  max-width: 100%;
+  //min-width: 1000px;
+  //max-width: 100%;
   margin: 0 auto;
 }
 
@@ -33,6 +33,14 @@ body {
   position: fixed;
 }
 
+.nav-link1 {
+  color: #c8c8c8;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  text-decoration: line;
+  padding: 8px 16px;
+}
+
 .container3 {
   width: 90%;
   display: flex;
@@ -41,7 +49,7 @@ body {
 }
 
 .nav.nav-pills.nav-fill {
-  background-color: black;
+  background-color: #110F0A;
 }
 
 .nav.nav-pills.nav-fill a {
@@ -176,8 +184,6 @@ body {
 
 .Container4 {
   //margin-left: 200px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .fourth {
@@ -419,22 +425,24 @@ h4 {
   }
 
   .Fline {
-    display: flex;
+    display: block;
     justify-content: space-around;
   }
 
   .Sline {
-    display: flex;
-    justify-content: space-around;
+    display: block;
   }
 
   .videos {
-    display: flex;
-    justify-content: space-around;
+    display: block;
+  }
+
+  .Navigation a {
+    font-size: 20px;
   }
 
   h1 {
-    font-size: 60px
+    font-size: 70px
   }
   h4 {
     font-size: 20px;
