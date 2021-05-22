@@ -31,13 +31,21 @@ body {
 }
 
 .nav.nav-pills.nav-fill {
-  background-color: black;
+  background-color: #110F0A;
 }
 
 .nav.nav-pills.nav-fill a {
   color: #c8c8c8;
   font-family: 'Exo 2', sans-serif;
   font-weight: 400;
+}
+
+.nav-link1 {
+  color: #c8c8c8;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  text-decoration: line;
+  padding: 8px 16px;
 }
 
 .Container5 {
@@ -53,40 +61,15 @@ body {
   color: #C8C8C8;
   //margin-left: 200px;
   line-height: 1.5;
-
+  padding: 10px;
+  margin-left: 10px;
 }
 
-.accordions {
-  margin-top: 10px;
-}
-
-.accordion-item {
-  height: 70px;
-}
-
-.accordion-item button {
-    background-image:  url("../images/automatron.jpg") ;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      //background-color: inherit;
-    height: 80px;
-    font-family: 'Exo 2', sans-serif;
-    font-weight: 700;
-    font-size: 25px;
-    color: #C8C8C8;
-}
-
-.accordion-body {
-  background-color: BLACK;
-  font-family: 'Exo 2', sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  color: #C8C8C8;
-}
 
 .container {
   display: flex;
   justify-content: space-between;
+  margin-left: -10px;
 }
 
 .modal-content {
@@ -129,6 +112,163 @@ body {
     border-color: #0fffa6;
 }
 
+.pic {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.pic img {
+  width: 400px;
+  height: 500px;
+}
+
+.accordion-item {
+  background-color: black;
+}
+
+.accordion-button {
+
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #C8C8C8;
+}
+
+#button2 {
+  background-image:  url("../images/wasterland.jpg") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: inherit;
+}
+
+#button3 {
+  background-image:  url("../images/farharbor_logo1.jpg") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: inherit;
+}
+
+#button4 {
+  background-image:  url("../images/cont_logo1.jpg") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: inherit;
+}
+
+#button5 {
+  background-image:  url("../images/vaultec_logo1.jpg") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: inherit;
+}
+
+#button6 {
+  background-image:  url("../images/1.jpg") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: inherit;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  background-image:  url("../images/automatron.jpg") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: inherit;
+}
+
+
+.accordion-button.1 {
+
+}
+
+.text2 {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight:  400;
+  font-size: 15px;
+  color: #C8C8C8;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.text3 {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight:  400;
+  font-size: 15px;
+  color: #C8C8C8;
+  display: block;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.images img {
+  width: 350px;
+  height: 220px;
+  margin-right: 10px;
+}
+
+.downloadbutton {
+  background: none;
+  border: 1px solid #c8c8c8;
+  width: 120px;
+  height: 50px;
+  margin: 0 auto;
+  font-family: 'Exo 2', sans-serif;
+  font-weight:  400;
+  font-size: 15px;
+  color: #c8c8c8;
+}
+
+.fiveth {
+  //width: 100%;
+  height: 300px;
+  //background-color: red;
+}
+
+.fiveth hr {
+  color: #C8C8C8;
+  size: 4px;
+}
+
+.container2 {
+  //margin-left: 200px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.container2 a {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #C8C8C8;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.container2 a:hover {
+  text-decoration: underline;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.column ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
 h1 {
   font-family: 'Exo 2', sans-serif;
   font-weight: 700;
@@ -152,7 +292,7 @@ h3 {
 
 h4 {
   font-family: 'Exo 2', sans-serif;
-  font-weight: 400;
+  font-weight:  700;
   font-size: 15px;
   color: #C8C8C8;
 }
@@ -161,4 +301,199 @@ h5 {
   font-weight: 400;
   font-size: 25px;
   color: #C8C8C8;
+}
+
+@media screen and (max-device-width: 600px) {
+  .main {
+    font-weight: 700;
+  }
+
+  .first {
+    background-image: none;
+    height: 400px;
+  }
+
+  .pic {
+    display: none
+  }
+
+  .title {
+    font-size: 30px;
+    margin-top: 100px;
+  }
+
+  .second {
+    margin-top: 0px;
+  }
+
+  .third {
+    margin-top: 0px;
+    background-image: none;
+  }
+
+  .fourth {
+    margin-top: 0px;
+  }
+
+  .fiveth {
+    margin-top: 0px;
+  }
+
+  .block {
+    width: 100%;
+    height: 450px;
+  }
+
+  .text2 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .carousel.slide {
+    height: 500px;
+  }
+
+  .carousel-text {
+    font-size: 20px;
+    font-weight: 700
+  }
+
+  .column a   {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .Fline {
+    display: block;
+    justify-content: space-around;
+  }
+
+  .Sline {
+    display: block;
+  }
+
+  .videos {
+    display: block;
+  }
+
+  .Navigation a {
+    font-size: 20px;
+  }
+
+
+  .images {
+    display: none;
+  }
+
+  h1 {
+    font-size: 70px
+  }
+  h4 {
+    font-size: 20px;
+    font-weight: 700
+  }
+}
+
+@media screen and (max-device-height: 600px) {
+  .main {
+    font-weight: 700;
+  }
+
+  .first {
+    background-image: none;
+    height: 400px;
+  }
+
+  .pic {
+    display: none
+  }
+
+  .title {
+    font-size: 30px;
+    margin-top: 100px;
+  }
+
+  .second {
+    margin-top: 0px;
+  }
+
+  .third {
+    margin-top: 0px;
+    background-image: none;
+  }
+
+  .fourth {
+    margin-top: 0px;
+  }
+
+  .fiveth {
+    margin-top: 0px;
+  }
+
+  .block {
+    width: 100%;
+    height: 450px;
+  }
+
+  .text2 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .carousel.slide {
+    height: 500px;
+  }
+
+  .carousel-text {
+    font-size: 20px;
+    font-weight: 700
+  }
+
+  .column a   {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .Fline {
+    display: block;
+    justify-content: space-around;
+  }
+
+  .Sline {
+    display: block;
+  }
+
+  .videos {
+    display: block;
+  }
+
+  .Navigation a {
+    font-size: 20px;
+  }
+
+  .container2 {
+    display: block;
+    margin: 0 auto;
+
+  }
+  .column a {
+    font-size: 25px;
+    line-height: 1.2
+  }
+
+  .column img {
+    display: none;
+  }
+
+  .images {
+    display: none;
+  }
+
+  h1 {
+    font-size: 70px
+  }
+  h4 {
+    font-size: 20px;
+    font-weight: 700
+  }
 }

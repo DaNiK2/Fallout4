@@ -33,6 +33,14 @@ body {
   position: fixed;
 }
 
+.nav-link1 {
+  color: #c8c8c8;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  text-decoration: line;
+  padding: 8px 16px;
+}
+
 .container3 {
   width: 90%;
   display: flex;
@@ -41,7 +49,7 @@ body {
 }
 
 .nav.nav-pills.nav-fill {
-  background-color: black;
+  background-color: #110F0A;
 }
 
 .nav.nav-pills.nav-fill a {
@@ -431,20 +439,6 @@ h4 {
 
   .Navigation a {
     font-size: 20px;
-  }
-
-  .container2 {
-    display: block;
-    margin: 0 auto;
-
-  }
-  .column a {
-    font-size: 25px;
-    line-height: 1.2
-  }
-
-  .column img {
-    display: none;
   }
 
   h1 {
